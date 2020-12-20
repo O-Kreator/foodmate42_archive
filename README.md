@@ -25,17 +25,17 @@ yarn start
 ```
 
 ## Feature
-[x] Node.js와 Express.js를 이용한 기본적인 웹 서버 구현.
-[x] Passport.js, Passport-42, 42 API를 활용한 로그인 구현.
-[x] 로그인한 유저가 데이터베이스 내에 없을 경우 데이터베이스에 username 추가.
-[ ] 식사 모임을 모집하는 게시글 목록 리스트 출력 및 게시글 열람 기능.
-[ ] 게시글 열람 시 참여 버튼을 이용해 모임에 선착순으로 참여 가능.
-[ ] 게시글 작성 기능.
+- [x] Node.js와 Express.js를 이용한 기본적인 웹 서버 구현.
+- [x] Passport.js, Passport-42, 42 API를 활용한 로그인 구현.
+- [x] 로그인한 유저가 데이터베이스 내에 없을 경우 데이터베이스에 username 추가.
+- [ ] 식사 모임을 모집하는 게시글 목록 리스트 출력 및 게시글 열람 기능.
+- [ ] 게시글 열람 시 참여 버튼을 이용해 모임에 선착순으로 참여 가능.
+- [ ] 게시글 작성 기능.
 
 # Developers
-- sochoi<sochoi@student.42seoul.kr> : Frontend.
-- sean<sean@student.42seoul.kr> : DB.
-- dongkang<dongkang@student.42seoul.kr> : Backend.
+- sochoi: Frontend.
+- sean: DB.
+- dongkang: Backend.
 
 # Thanks to
 - Every 42 Seoul Kadet
