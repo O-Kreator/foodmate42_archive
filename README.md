@@ -44,3 +44,7 @@ yarn start
 
 # Thanks to
 - Every 42 Seoul Kadet
+
+# Story
+- 🎞 [유튜브 시연 영상](https://youtu.be/GeWWLeyeLCs)
+- 🔗 [노션 링크](https://bit.ly/foodmate42_notion)
