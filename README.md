@@ -10,8 +10,14 @@
 export FORTYTWO_CLIENT_ID="[Your app's client ID]"
 export FORTYTWO_CLIENT_SECRET="[Your app's client secret]"
 ```
-3. 데이터베이스 서버에 `FoodMate42`라는 데이터베이스를 작성해주세요. (`config/db.js`를 수정해 변경 가능.)
-4. 데이터베이스 서버의 정보를 이용해 서버의 환경 변수를 다음과 같이 설정해주세요.
+3. MySQL 데이터베이스 서버에 `FoodMate42`라는 데이터베이스를 작성해주세요. (`config/db.js`를 수정해 변경 가능.)
+4. 데이터베이스 서버에 다음 명령어로 `user`라는 테이블을 생성해주세요.
+```
+CREATE TABLE user(
+	id INT(10) NOT NULL
+);
+```
+5. 데이터베이스 서버의 정보를 이용해 서버의 환경 변수를 다음과 같이 설정해주세요.
 ```
 export RDS_HOSTNAME="[Your database server's host name]"
 export RDS_USERNAME="[Your database server's user name]"
